@@ -8,19 +8,9 @@ Author: **Niloofar Dalir Abdinia** · Supervisor: **Eng. Samaneh Yazdani**
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2021+-0076A8?logo=mathworks&logoColor=white)](matlab)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A small multilayer perceptron that classifies OASIS clinical records as **Demented** or **Nondemented**, with MRMR feature ranking and a documented limitation: Clinical Dementia Rating (CDR) is almost a diagnosis, not an independent biomarker.
+A multilayer perceptron that classifies OASIS clinical records as **Demented** or **Nondemented**, with MRMR feature ranking. Clinical Dementia Rating (CDR) is treated as a documented limitation: it is nearly a diagnosis, not an independent biomarker.
 
----
-
-## Why this project
-
-Universities reviewing a master’s application should be able to open this repository and see, in one place:
-
-- the original research idea (neural-network detection of Alzheimer’s disease from clinical features)
-- **corrected MATLAB** programs (the thesis code had several bugs)
-- an equivalent **Python** pipeline that anyone can run
-- the full thesis in **English** (`docs/Bachelor_Thesis_English.docx`)
-- honest metrics, including an ablation **without CDR**
+This repository includes the MATLAB pipeline, a Python reproduction, processed data, results, and the thesis in English and Persian.
 
 | Resource | Path |
 | --- | --- |
@@ -79,7 +69,7 @@ The original MATLAB study (2022) reported 100% accuracy on 9 of 10 runs and 93.1
 
 ## How to run
 
-### Python (recommended demo)
+### Python
 
 ```bash
 python -m pip install -r requirements.txt
@@ -134,23 +124,6 @@ archive/                Original .m files as submitted
 ```
 
 ---
-
-## Publish this repository on GitHub
-
-From the project folder (you only need to do this once):
-
-```bash
-git init
-git add .
-git commit -m "Add Alzheimer neural-network bachelor thesis (MATLAB, Python, English report)"
-gh repo create alzheimer-nn-bachelor --public --source=. --remote=origin --push
-```
-
-Then set the GitHub repository description to:
-
-`Bachelor thesis: detecting Alzheimer’s disease from OASIS clinical features with an MLP and MRMR (MATLAB + Python).`
-
-Pin the repository on your profile and add the English thesis as a release asset if you want admissions tutors to download it without cloning.
 
 ## Citation
 

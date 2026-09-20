@@ -2,7 +2,7 @@
 
 | File | Description |
 | --- | --- |
-| `Bachelor_Thesis_English.docx` | Full English thesis (use this for applications) |
+| `Bachelor_Thesis_English.docx` | Full English thesis |
 | `original_thesis_persian.docx` | Original Persian submission |
 | `figures/` | Figures embedded in the English thesis |
 
