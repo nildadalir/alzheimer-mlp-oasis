@@ -1,0 +1,20 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# MATLAB leftovers
+*.asv
+*.m~
+matlab/slprj/
+matlab/*.mat
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+*.tmp

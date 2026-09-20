@@ -1,0 +1,100 @@
+{
+  "n_records_original": 373,
+  "n_records_used": 336,
+  "class_counts": {
+    "Demented": 146,
+    "Nondemented": 190
+  },
+  "mrmr_ranking": [
+    {
+      "rank": 1,
+      "feature": "CDR",
+      "score": 925.5312880970855
+    },
+    {
+      "rank": 2,
+      "feature": "MMSE",
+      "score": 257.1283282747828
+    },
+    {
+      "rank": 3,
+      "feature": "Sex",
+      "score": 151.69618339155295
+    },
+    {
+      "rank": 4,
+      "feature": "EDUC",
+      "score": 161.6899870876022
+    },
+    {
+      "rank": 5,
+      "feature": "nWBV",
+      "score": 172.75602653680346
+    },
+    {
+      "rank": 6,
+      "feature": "Age",
+      "score": 6.655432925145923
+    },
+    {
+      "rank": 7,
+      "feature": "eTIV",
+      "score": 1.299156964357255
+    },
+    {
+      "rank": 8,
+      "feature": "ASF",
+      "score": 0.47888757276058497
+    },
+    {
+      "rank": 9,
+      "feature": "SES",
+      "score": 0.09818558709190464
+    }
+  ],
+  "mlp_all_features": {
+    "TP": 15,
+    "TN": 19,
+    "FP": 0,
+    "FN": 0,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1": 1.0,
+    "train_time_s": 0.018227900029160082,
+    "test_time_s": 0.00020870001753792167,
+    "n_features": 9
+  },
+  "mlp_without_etiv_asf": {
+    "TP": 15,
+    "TN": 19,
+    "FP": 0,
+    "FN": 0,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1": 1.0,
+    "train_time_s": 0.037676700041629374,
+    "test_time_s": 0.00020109995966777205,
+    "n_features": 7
+  },
+  "mlp_without_cdr": {
+    "TP": 13,
+    "TN": 16,
+    "FP": 3,
+    "FN": 2,
+    "accuracy": 0.8529411764705882,
+    "precision": 0.8125,
+    "recall": 0.8666666666666667,
+    "specificity": 0.8421052631578947,
+    "f1": 0.8387096774193549,
+    "n_features": 8
+  },
+  "split": {
+    "train": 302,
+    "test": 34,
+    "seed": 42
+  }
+}

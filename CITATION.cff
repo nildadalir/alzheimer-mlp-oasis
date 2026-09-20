@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: Diagnosis of Alzheimer’s Disease Using Neural Networks
+message: If you use this repository, please cite it as below.
+type: software
+authors:
+  - family-names: Dalir Abdinia
+    given-names: Niloofar
+abstract: >
+  Bachelor’s thesis implementation of a multilayer perceptron for
+  Alzheimer’s detection on OASIS clinical features, with MRMR ranking
+  and MATLAB plus Python code.
+keywords:
+  - Alzheimer
+  - neural networks
+  - MLP
+  - MRMR
+  - OASIS
+license: MIT
