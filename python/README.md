@@ -1,6 +1,6 @@
 # Python pipeline
 
-End-to-end reproduction of the thesis experiment.
+End-to-end reproduction of the thesis classification experiment.
 
 ```bash
 python -m pip install -r ../requirements.txt
